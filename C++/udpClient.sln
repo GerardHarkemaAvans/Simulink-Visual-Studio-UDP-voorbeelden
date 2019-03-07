@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "udpReceiveFromSimulinkDevice", "udpReceiveFromSimulinkDevice\udpReceiveFromSimulinkDevice.vcxproj", "{7788FDC3-31F2-4D21-A8E6-2E28E62A91A8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "udpSendToSimulinkDevice", "udpSendToSimulinkDevice\udpSendToSimulinkDevice.vcxproj", "{D5BF01B0-456C-4584-BEA9-630EE11291FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7788FDC3-31F2-4D21-A8E6-2E28E62A91A8}.Debug|x64.ActiveCfg = Debug|x64
+		{7788FDC3-31F2-4D21-A8E6-2E28E62A91A8}.Debug|x64.Build.0 = Debug|x64
+		{7788FDC3-31F2-4D21-A8E6-2E28E62A91A8}.Debug|x86.ActiveCfg = Debug|Win32
+		{7788FDC3-31F2-4D21-A8E6-2E28E62A91A8}.Debug|x86.Build.0 = Debug|Win32
+		{7788FDC3-31F2-4D21-A8E6-2E28E62A91A8}.Release|x64.ActiveCfg = Release|x64
+		{7788FDC3-31F2-4D21-A8E6-2E28E62A91A8}.Release|x64.Build.0 = Release|x64
+		{7788FDC3-31F2-4D21-A8E6-2E28E62A91A8}.Release|x86.ActiveCfg = Release|Win32
+		{7788FDC3-31F2-4D21-A8E6-2E28E62A91A8}.Release|x86.Build.0 = Release|Win32
+		{D5BF01B0-456C-4584-BEA9-630EE11291FB}.Debug|x64.ActiveCfg = Debug|x64
+		{D5BF01B0-456C-4584-BEA9-630EE11291FB}.Debug|x64.Build.0 = Debug|x64
+		{D5BF01B0-456C-4584-BEA9-630EE11291FB}.Debug|x86.ActiveCfg = Debug|Win32
+		{D5BF01B0-456C-4584-BEA9-630EE11291FB}.Debug|x86.Build.0 = Debug|Win32
+		{D5BF01B0-456C-4584-BEA9-630EE11291FB}.Release|x64.ActiveCfg = Release|x64
+		{D5BF01B0-456C-4584-BEA9-630EE11291FB}.Release|x64.Build.0 = Release|x64
+		{D5BF01B0-456C-4584-BEA9-630EE11291FB}.Release|x86.ActiveCfg = Release|Win32
+		{D5BF01B0-456C-4584-BEA9-630EE11291FB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B47C590-B6D7-41B9-96AC-BB53D134F3A9}
+	EndGlobalSection
+EndGlobal
