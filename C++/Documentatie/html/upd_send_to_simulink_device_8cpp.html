@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>udp examples voor matlab en Visual Studio C++: udpReceiveFromSimulinkDevice/udpReceiveFromSimulinkDevice.cpp File Reference</title>
+<title>udp examples voor matlab en Visual Studio C++: udpSendToSimulinkDevice/updSendToSimulinkDevice.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_4849d04e32cb3161e3a917fbc6969d3b.html">udpReceiveFromSimulinkDevice</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_12140ffee03cca83ad87c9ca61c3f92c.html">udpSendToSimulinkDevice</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -71,13 +71,10 @@ $(function() {
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">udpReceiveFromSimulinkDevice.cpp File Reference</div>  </div>
+<div class="title">updSendToSimulinkDevice.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Voorbeeld programma om gegevens uit een Arduino simulink-model te ontvangen door middel van het udp/ip protocol.  
-<a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="udp_receive_from_simulink_device_2stdafx_8h_source.html">stdafx.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="udp_send_to_simulink_device_2stdafx_8h_source.html">stdafx.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="udp_client_8h_source.html">../udpClientLibrary/udpClient.h</a>&quot;</code><br />
 <code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;conio.h&gt;</code><br />
@@ -90,29 +87,24 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ad8a262037cbfb38d1512f0073eeb7a66"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="udp_receive_from_simulink_device_8cpp.html#ad8a262037cbfb38d1512f0073eeb7a66">IP_ADDRESS</a>&#160;&#160;&#160;&quot;192.168.2.87&quot;</td></tr>
+<tr class="memitem:ad8a262037cbfb38d1512f0073eeb7a66"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="upd_send_to_simulink_device_8cpp.html#ad8a262037cbfb38d1512f0073eeb7a66">IP_ADDRESS</a>&#160;&#160;&#160;&quot;192.168.2.87&quot;</td></tr>
 <tr class="separator:ad8a262037cbfb38d1512f0073eeb7a66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a614217d263be1fb1a5f76e2ff7be19a2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="udp_receive_from_simulink_device_8cpp.html#a614217d263be1fb1a5f76e2ff7be19a2">PORT</a>&#160;&#160;&#160;50002</td></tr>
+<tr class="memitem:a614217d263be1fb1a5f76e2ff7be19a2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="upd_send_to_simulink_device_8cpp.html#a614217d263be1fb1a5f76e2ff7be19a2">PORT</a>&#160;&#160;&#160;50001</td></tr>
 <tr class="separator:a614217d263be1fb1a5f76e2ff7be19a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="udp_receive_from_simulink_device_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
+<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="upd_send_to_simulink_device_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
 <tr class="memdesc:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Beginpunt van het programma.  <a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">More...</a><br /></td></tr>
 <tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a665b48891043e9d2bedfbc177c29ef7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classudp_client.html">udpClient</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="udp_receive_from_simulink_device_8cpp.html#a665b48891043e9d2bedfbc177c29ef7b">theUdpReceiveClient</a> (<a class="el" href="upd_send_to_simulink_device_8cpp.html#ad8a262037cbfb38d1512f0073eeb7a66">IP_ADDRESS</a>, <a class="el" href="upd_send_to_simulink_device_8cpp.html#a614217d263be1fb1a5f76e2ff7be19a2">PORT</a>, <a class="el" href="udp_client_8h.html#aae458df9a08967771173d947db2bfe73a1baab8500e48c88651ba0a165c58f5d7">RECEIVE_FUNCTION</a>)</td></tr>
-<tr class="memdesc:a665b48891043e9d2bedfbc177c29ef7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Het object waardoor de data wordt onvangen, tevens wordt de verbinding tot stand gebracht.  <a href="#a665b48891043e9d2bedfbc177c29ef7b">More...</a><br /></td></tr>
-<tr class="separator:a665b48891043e9d2bedfbc177c29ef7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ec962033720d6aee731e92334371c8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classudp_client.html">udpClient</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="upd_send_to_simulink_device_8cpp.html#a8ec962033720d6aee731e92334371c8d">theUdpSendClient</a></td></tr>
+<tr class="memdesc:a8ec962033720d6aee731e92334371c8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Het object waardoor de data wordt verzonden.  <a href="#a8ec962033720d6aee731e92334371c8d">More...</a><br /></td></tr>
+<tr class="separator:a8ec962033720d6aee731e92334371c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Voorbeeld programma om gegevens uit een Arduino simulink-model te ontvangen door middel van het udp/ip protocol. </p>
-<dl class="section author"><dt>Author</dt><dd>Gerard Harkema </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>6 maart 2019 </dd></dl>
-<dl class="section remark"><dt>Remarks</dt><dd>Gebuik dit programma samen met het TransmitToUdpServer.xls simulink model </dd></dl>
-</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="ad8a262037cbfb38d1512f0073eeb7a66"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad8a262037cbfb38d1512f0073eeb7a66">&#9670;&nbsp;</a></span>IP_ADDRESS</h2>
 
@@ -135,7 +127,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define PORT&#160;&#160;&#160;50002</td>
+          <td class="memname">#define PORT&#160;&#160;&#160;50001</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -164,19 +156,19 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a665b48891043e9d2bedfbc177c29ef7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a665b48891043e9d2bedfbc177c29ef7b">&#9670;&nbsp;</a></span>theUdpReceiveClient</h2>
+<a id="a8ec962033720d6aee731e92334371c8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ec962033720d6aee731e92334371c8d">&#9670;&nbsp;</a></span>theUdpSendClient</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classudp_client.html">udpClient</a> theUdpReceiveClient(<a class="el" href="upd_send_to_simulink_device_8cpp.html#ad8a262037cbfb38d1512f0073eeb7a66">IP_ADDRESS</a>, <a class="el" href="upd_send_to_simulink_device_8cpp.html#a614217d263be1fb1a5f76e2ff7be19a2">PORT</a>, <a class="el" href="udp_client_8h.html#aae458df9a08967771173d947db2bfe73a1baab8500e48c88651ba0a165c58f5d7">RECEIVE_FUNCTION</a>)</td>
+          <td class="memname"><a class="el" href="classudp_client.html">udpClient</a> theUdpSendClient</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Het object waardoor de data wordt onvangen, tevens wordt de verbinding tot stand gebracht. </p>
+<p>Het object waardoor de data wordt verzonden. </p>
 
 </div>
 </div>

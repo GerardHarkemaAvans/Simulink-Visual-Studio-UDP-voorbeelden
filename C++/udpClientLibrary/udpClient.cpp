@@ -1,3 +1,9 @@
+/*!
+\file udpClient.cpp
+\brief Implementatie(.cpp) van de UDP/IP library voor UDP/IP communicatie met een Arduino Simulink model
+\author Gerard Harkema
+\date 6 maart 2019
+*/
 #include "stdafx.h"  // Dummy to make it compiling
 #include "udpClient.h"
 #include <iostream>
